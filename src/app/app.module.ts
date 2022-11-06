@@ -151,6 +151,7 @@ import {MenuService} from './app.menu.service';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import timeGridPlugin from '@fullcalendar/timegrid';
 import interactionPlugin from '@fullcalendar/interaction';
+import { PersonaComponent } from './components/persona/persona.component';
 
 FullCalendarModule.registerPlugins([
     dayGridPlugin,
@@ -290,6 +291,7 @@ FullCalendarModule.registerPlugins([
         AppWizardComponent,
         BlockViewer,
         BlocksComponent,
+        PersonaComponent,
     ],
     providers: [
         {provide: LocationStrategy, useClass: HashLocationStrategy},

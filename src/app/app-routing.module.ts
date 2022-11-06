@@ -31,6 +31,7 @@ import {AppInvoiceComponent} from './pages/app.invoice.component';
 import {AppHelpComponent} from './pages/app.help.component';
 import {AppWizardComponent} from './pages/app.wizard.component';
 import {BlocksComponent} from './blocks/blocks/blocks.component';
+import { PersonaComponent } from './components/persona/persona.component';
 
 @NgModule({
     imports: [
@@ -64,6 +65,7 @@ import {BlocksComponent} from './blocks/blocks/blocks.component';
                     {path: 'pages/empty', component: EmptyDemoComponent},
                     {path: 'documentation', component: DocumentationComponent},
                     {path: 'blocks', component: BlocksComponent},
+                    {path: 'persona', component: PersonaComponent},
                 ]
             },
             {path: 'error', component: AppErrorComponent},
